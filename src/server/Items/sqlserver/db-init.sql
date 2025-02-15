@@ -1,0 +1,6 @@
+IF NOT EXIST (SELECT name FROM sys.database WHERE name = N'WebGlue')
+BEGIN
+	CREATE DATABSE [WebGlu]
+	COLLATE Polish_100_CI_AS;
+END
+GO

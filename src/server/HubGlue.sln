@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F7A9D2B4-DCAB-43A7-AF18-76E3DBB2DCCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HubGlue", "HubGlue", "{ACE28258-7C91-4471-8E26-98E619107009}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{8D3DB96F-C3D2-403F-98C9-22AD9121291B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubGlue.Api", "Modules\HubGlue\HubGlue.Api\HubGlue.Api.csproj", "{2CC9846E-8753-426E-8CDA-A9B680DE1D3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubGlue.Application", "Modules\HubGlue\HubGlue.Application\HubGlue.Application.csproj", "{0000E6BC-0C4F-45BB-BEB9-EC58DD8C677A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubGlue.Domain", "Modules\HubGlue\HubGlue.Domain\HubGlue.Domain.csproj", "{8939030F-6897-4CD0-BDC4-04A4FC79B74B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubGlue.Infrastructure", "Modules\HubGlue\HubGlue.Infrastructure\HubGlue.Infrastructure.csproj", "{5C7ED924-36C8-4F66-AEAE-BBB025A40E7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubGlue.Tests.Integration", "Modules\HubGlue\HubGlue.Tests.Integration\HubGlue.Tests.Integration.csproj", "{362031A6-F607-4BF8-89BD-3F9A431F74B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HubGlue.Tests.Unit", "Modules\HubGlue\HubGlue.Tests.Unit\HubGlue.Tests.Unit.csproj", "{3CCE4159-9F5D-4C8D-991C-0062028C0829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC9846E-8753-426E-8CDA-A9B680DE1D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC9846E-8753-426E-8CDA-A9B680DE1D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC9846E-8753-426E-8CDA-A9B680DE1D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC9846E-8753-426E-8CDA-A9B680DE1D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0000E6BC-0C4F-45BB-BEB9-EC58DD8C677A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0000E6BC-0C4F-45BB-BEB9-EC58DD8C677A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0000E6BC-0C4F-45BB-BEB9-EC58DD8C677A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0000E6BC-0C4F-45BB-BEB9-EC58DD8C677A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8939030F-6897-4CD0-BDC4-04A4FC79B74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8939030F-6897-4CD0-BDC4-04A4FC79B74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8939030F-6897-4CD0-BDC4-04A4FC79B74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8939030F-6897-4CD0-BDC4-04A4FC79B74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7ED924-36C8-4F66-AEAE-BBB025A40E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7ED924-36C8-4F66-AEAE-BBB025A40E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7ED924-36C8-4F66-AEAE-BBB025A40E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7ED924-36C8-4F66-AEAE-BBB025A40E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362031A6-F607-4BF8-89BD-3F9A431F74B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362031A6-F607-4BF8-89BD-3F9A431F74B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362031A6-F607-4BF8-89BD-3F9A431F74B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362031A6-F607-4BF8-89BD-3F9A431F74B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCE4159-9F5D-4C8D-991C-0062028C0829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCE4159-9F5D-4C8D-991C-0062028C0829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCE4159-9F5D-4C8D-991C-0062028C0829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCE4159-9F5D-4C8D-991C-0062028C0829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACE28258-7C91-4471-8E26-98E619107009} = {F7A9D2B4-DCAB-43A7-AF18-76E3DBB2DCCF}
+		{2CC9846E-8753-426E-8CDA-A9B680DE1D3F} = {ACE28258-7C91-4471-8E26-98E619107009}
+		{0000E6BC-0C4F-45BB-BEB9-EC58DD8C677A} = {ACE28258-7C91-4471-8E26-98E619107009}
+		{8939030F-6897-4CD0-BDC4-04A4FC79B74B} = {ACE28258-7C91-4471-8E26-98E619107009}
+		{5C7ED924-36C8-4F66-AEAE-BBB025A40E7C} = {ACE28258-7C91-4471-8E26-98E619107009}
+		{362031A6-F607-4BF8-89BD-3F9A431F74B3} = {ACE28258-7C91-4471-8E26-98E619107009}
+		{3CCE4159-9F5D-4C8D-991C-0062028C0829} = {ACE28258-7C91-4471-8E26-98E619107009}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D9A83C5-8A95-4D90-ABDA-844275636D42}
+	EndGlobalSection
+EndGlobal
